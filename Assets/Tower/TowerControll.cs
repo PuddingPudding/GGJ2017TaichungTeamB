@@ -5,6 +5,7 @@ using UnityEngine;
 public class TowerControll : MonoBehaviour
 {
     public GameObject wave;
+    public GameObject waveanimation;
 
     // Use this for initialization
     void Start()
@@ -19,6 +20,7 @@ public class TowerControll : MonoBehaviour
         {
             GameObject waveCopy = null;
             waveCopy = Instantiate(wave, transform.position, new Quaternion(0, 0, 0, 0));
+            Instantiate(waveanimation);
         }
     }
 }
