@@ -36,5 +36,18 @@ public class MoveToTower : MonoBehaviour
         }
     }
 
-
+    void OnTriggerEnter2D(Collider2D col)  //2D觸發事件
+    {
+        print("trigger out!");
+        if (col.tag == "Wave")
+        {
+            print("trigger!");
+            unit.HP -= 1;
+            if(unit.HP <= 0)
+            {
+                Destroy(this.gameObject);
+            }
+        }
+    }
 }
+
