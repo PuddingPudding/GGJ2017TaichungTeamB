@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 114117676818977744}
   - component: {fileID: 50964671558313506}
   - component: {fileID: 61606955180225864}
-  - component: {fileID: 95289650227283650}
+  - component: {fileID: 95730627340648906}
   m_Layer: 8
   m_Name: enemyObject
   m_TagString: Untagged
@@ -79,7 +79,7 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
---- !u!95 &95289650227283650
+--- !u!95 &95730627340648906
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
@@ -88,7 +88,7 @@ Animator:
   m_GameObject: {fileID: 1455756783955776}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3699b4b69c8a6b547889cd79b4a4e5b4, type: 2}
+  m_Controller: {fileID: 9100000, guid: d831950453d5b4c488b517fb880032fa, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -150,9 +150,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: -1512821081
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a0c4e106da190d4449adf86c6a94820b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 06b4916cebee3ed4f858bd356c8d9f96, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
