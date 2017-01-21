@@ -24,7 +24,6 @@ GameObject:
   - component: {fileID: 114117676818977744}
   - component: {fileID: 50964671558313506}
   - component: {fileID: 61606955180225864}
-  - component: {fileID: 95289650227283650}
   m_Layer: 8
   m_Name: enemyObject
   m_TagString: Untagged
@@ -79,23 +78,6 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
---- !u!95 &95289650227283650
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1455756783955776}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3699b4b69c8a6b547889cd79b4a4e5b4, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114117676818977744
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -120,7 +102,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UnitName: New Unit
   HP: 3
-  Speed: 0.3
+  Speed: 1
 --- !u!212 &212005611289724410
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -152,7 +134,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a0c4e106da190d4449adf86c6a94820b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 36509f80f0533b643a82305d50402db2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
