@@ -5,7 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Wave
+<<<<<<< HEAD
   - Tower
+=======
+>>>>>>> 55a8aea554196adb8a0d09b811bfc6d06f17d4a0
   layers:
   - Default
   - TransparentFX
@@ -15,7 +18,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - background
   - 
   - 
   - 
@@ -42,4 +45,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: background
+    uniqueID: 3671438773
     locked: 0
