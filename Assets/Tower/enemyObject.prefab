@@ -22,7 +22,9 @@ GameObject:
   - component: {fileID: 212005611289724410}
   - component: {fileID: 114131168130783428}
   - component: {fileID: 114117676818977744}
-  m_Layer: 0
+  - component: {fileID: 50964671558313506}
+  - component: {fileID: 61606955180225864}
+  m_Layer: 8
   m_Name: enemyObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,6 +44,40 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50964671558313506
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1455756783955776}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &61606955180225864
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1455756783955776}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
 --- !u!114 &114117676818977744
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -65,7 +101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UnitName: New Unit
-  HP: 10
+  HP: 3
   Speed: 2
 --- !u!212 &212005611289724410
 SpriteRenderer:
