@@ -5,6 +5,7 @@ using UnityEngine;
 public class MoveToTower : MonoBehaviour
 {
     GameObject target = null;
+    public GameObject explo;
     Unit unit;
 
     // Use this for initialization
@@ -46,6 +47,7 @@ public class MoveToTower : MonoBehaviour
             if(unit.HP <= 0)
             {
                 Destroy(this.gameObject);
+                Instantiate(explo, transform.position, transform.rotation);
             }
         }
     }
