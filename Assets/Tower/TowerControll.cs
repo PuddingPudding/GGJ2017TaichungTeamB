@@ -20,7 +20,6 @@ public class TowerControll : MonoBehaviour
         {
             GameObject waveCopy = null;
             waveCopy = Instantiate(wave, transform.position, new Quaternion(0, 0, 0, 0));
-            Instantiate(waveanimation);
         }
     }
 }
